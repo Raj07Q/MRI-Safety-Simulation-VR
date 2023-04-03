@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 5a4dc7a86f2eca44a80d1fd18a866824
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: f51233348a74b5d4ca254e6aa85ba1e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 9dd294695d2a7bb45a5850538756f267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: e1d2bb2a9aa4fe948989125b3e050068, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint White
+    second: {fileID: 2100000, guid: 4e6d94a56f516fe459bdb7ce21c3484c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper A4
+    second: {fileID: 2100000, guid: 13dfb632c3b8880418a7562c2be40a42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Blue
+    second: {fileID: 2100000, guid: c891e61d0a59f2d498498596ed415e6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Clear
+    second: {fileID: 2100000, guid: 58d9be22a1ccd3a45a8cef47786ed431, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Off-White
+    second: {fileID: 2100000, guid: 87e82a9b91b2ba34dbb6d66b6cbcc5ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Red
+    second: {fileID: 2100000, guid: 938795522ec3d3c46b8ed8c5e9e7b315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Orange
+    second: {fileID: 2100000, guid: b63739182098e96418319bbac58f0445, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pic01
+    second: {fileID: 2800000, guid: 6579e3bfe0530f34d81340d69784f808, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["GlassPaneLong003","GlassPaneBig006","GlassPaneBig005","WindowFrameDouble_003","GlassPaneLong002","GlassPaneBig004","GlassPaneBig003","WindowFrameDouble_002","Whiteboard
+      Small005","Whiteboard Small004","Whiteboard Small003","Whiteboard Small002","Whiteboard
+      Small001","Whiteboard","Plastic Container 018","Plastic Container 017","Plastic
+      Container 016","BinderBig013","BinderBig012","BinderBig011","BinderBig010","BinderBig009","BinderBig008","BinderBig007","BinderBig006","BinderBig005","BinderBig004","Binder008","Binder007","Binder006","Binder005","Wall
+      Shelf 001","TrashCan004","TrashCan003","TrashCan002","SinkStand002","DrainCover002","Drain002","Sink002","Wheel008","Wheel007","Wheel006","Wheel005","DrawerHandle050","DrawerHandle049","DrawerHandle048","DrawerHandle047","DrawerHandle046","DrawerHandle045","CabinetDrawers012","Cabinet
+      005","RollingBoard 001","Power Plug014","Power Plug013","Power Plug012","Power
+      Plug011","Power Plug010","A4 paper 031","A4 paper 030","A4 paper 029","A4 paper
+      028","A4 paper 027","A4 paper 026","A4 paper 025","PaperOrganizer003","A4 paper
+      024","A4 paper 023","A4 paper 022","A4 paper 021","A4 paper 020","A4 paper
+      019","A4 paper 018","PaperOrganizer002","A4 paper 017","A4 paper 016","A4 paper
+      015","A4 paper 014","A4 paper 013","A4 paper 012","A4 paper 011","PaperOrganizer001","A4
+      paper 010","A4 paper 009","A4 paper 008","A4 paper 007","A4 paper 006","A4
+      paper 005","A4 paper 004","PaperOrganizer","Paper Towel001","Paper Dispenser
+      002","Papers","Keyboard003","Keyboard002","ComputerScreen003","ComputerScreen002","Computer002","Computer001","Office
+      Desk001","LockerBox DoorHandle 012","LockerBox Door 012","LockerBox DoorHandle
+      010","LockerBox Door 011","LockerBox DoorHandle 011","LockerBox Door 010","LockerBox
+      DoorHandle 009","LockerBox Door 009","LockerBox DoorHandle 007","LockerBox
+      Door 008","LockerBox DoorHandle 008","LockerBox Door 007","LockerBox DoorHandle
+      006","LockerBox Door 006","LockerBox DoorHandle 004","LockerBox Door 005","LockerBox
+      DoorHandle 005","LockerBox Door 004","LockerBox DoorHandle 003","LockerBox
+      Door 003","LockerBox DoorHandle 001","LockerBox Door 002","LockerBox DoorHandle
+      002","LockerBox Door 001","LockerBox 001","HighTable B 002","HighTable B 001","HighTable
+      A 001","Fire Extinguisher002","Fire Extinguisher001","Keyboard001","ComputerScreen001","Books","Desk
+      C 001","Power Plug009","Power Plug008","Power Plug007","Power Plug006","Plastic
+      Container 015","Plastic Container 014","Plastic Container 013","Plastic Container
+      012","CableBox002","Wheels001","DrawerHandle044","DrawerHandle043","DrawerHandle042","CabinetDrawers011","Cabinet
+      004","DrawerHandle 031","DrawerHandle 025","DrawerHandle 019","DrawerHandle
+      013","DrawerHandle 007","DrawerHandle 001","CabinetDrawers009","DrawerHandle
+      032","DrawerHandle 026","DrawerHandle 020","DrawerHandle 014","DrawerHandle
+      008","DrawerHandle 002","CabinetDrawers008","Cabinet 003","DrawerHandle 033","DrawerHandle
+      027","DrawerHandle 021","DrawerHandle 015","DrawerHandle 009","DrawerHandle
+      003","CabinetDrawers007","DrawerHandle 036","DrawerHandle 030","DrawerHandle
+      024","DrawerHandle 018","DrawerHandle 012","DrawerHandle 006","CabinetDrawers006","Cabinet
+      002","DrawerHandle 035","DrawerHandle 029","DrawerHandle 023","DrawerHandle
+      017","DrawerHandle 011","DrawerHandle 005","CabinetDrawers005","DrawerHandle
+      034","DrawerHandle 028","DrawerHandle 022","DrawerHandle 016","DrawerHandle
+      010","DrawerHandle 004","CabinetDrawers004","Cabinet 001","Boxlight004","Boxlight003","Boxlight002","Boxlight001","Wheel004","Wheel003","Wheel002","Wheel001","6
+      SmallShelf","2 Office"],"padding":[36,25,25,15,36,25,25,15,22,21,21,21,22,10,118,118,118,43,41,41,41,41,41,41,41,41,41,43,43,43,43,14,35,35,35,49,256,256,32,170,170,170,170,256,256,256,256,256,256,25,13,31,256,256,256,256,256,81,81,81,81,81,81,81,24,81,81,81,81,81,81,81,24,81,81,81,81,81,81,81,24,81,81,81,81,81,81,81,24,170,56,57,78,78,29,29,32,32,14,256,63,256,63,256,63,256,63,256,63,256,63,256,63,256,63,256,63,256,63,256,63,256,63,11,27,27,24,52,52,78,29,26,12,256,256,256,256,118,118,118,118,17,85,256,256,256,35,17,256,256,256,256,256,256,33,256,256,256,256,256,256,33,12,256,256,256,256,256,256,33,256,256,256,256,256,256,33,12,256,256,256,256,256,256,33,256,256,256,256,256,256,33,12,29,29,29,29,170,170,170,170,18,2],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

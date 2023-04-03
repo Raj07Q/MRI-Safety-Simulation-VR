@@ -1,0 +1,952 @@
+2023-3-14
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_2" 4 0 0 batchpointlight_0_0_2.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_9" 4 0 0 batchpointlight_0_0_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_9" 4 0 0 batchpointlight_0_0_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+2023-3-15
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_9" 4 0 0 batchpointlight_0_0_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_9" 4 0 0 batchpointlight_0_0_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_9" 4 0 0 batchpointlight_0_0_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_4" 4 0 0 batchpointlight_0_0_4.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_9" 4 0 0 batchpointlight_0_0_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_8_9" 4 0 0 batchpointlight_0_8_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_8_9" 4 0 0 batchpointlight_0_8_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainVR_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainVR_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_8_9" 4 0 0 batchpointlight_0_8_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_4_7" 4 0 1 batchpointlight_1_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_8_9" 4 0 1 batchpointlight_1_8_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_3" 4 0 2 batchpointlight_2_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_4_7" 4 0 2 batchpointlight_2_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_8_9" 4 0 2 batchpointlight_2_8_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA1_diffuse" 4 16 1 "gi_MainVR_LMA10.bin" "MainVR_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA2_diffuse" 4 16 2 "gi_MainVR_LMA20.bin" "MainVR_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA1_diffuse" 4 16 1 "gi_MainVR_LMA11.bin" "MainVR_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA2_diffuse" 4 16 2 "gi_MainVR_LMA21.bin" "MainVR_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA1_diffuse" 4 16 1 "gi_MainVR_LMA12.bin" "MainVR_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA2_diffuse" 4 16 2 "gi_MainVR_LMA22.bin" "MainVR_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA1_diffuse" 4 16 1 "gi_MainVR_LMA13.bin" "MainVR_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA2_diffuse" 4 16 2 "gi_MainVR_LMA23.bin" "MainVR_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA1_final" 4 16 1 "gi_MainVR_LMA14.bin" "MainVR_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA2_final" 4 16 2 "gi_MainVR_LMA24.bin" "MainVR_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "MainVR_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "MainVR_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_8_9" 4 0 0 batchpointlight_0_8_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_8_9" 4 0 0 batchpointlight_0_8_9.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+2023-3-15
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012121[OVRPlugin][INFO] VkInstanceExtensions:[OVRPlugin][INFO]   VK_KHR_surface[OVRPlugin][INFO]   VK_KHR_external_memory_capabilities[OVRPlugin][INFO]   VK_KHR_win32_surface[OVRPlugin][INFO]   VK_KHR_external_fence_capabilities[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO]   VK_KHR_external_semaphore_capabilities[OVRPlugin][INFO]   VK_KHR_get_physical_device_properties2[OVRPlugin][INFO] VkDeviceExtensions:[OVRPlugin][INFO]   VK_KHR_swapchain[OVRPlugin][INFO]   VK_KHR_external_memory[OVRPlugin][INFO]   VK_KHR_external_memory_win32[OVRPlugin][INFO]   VK_KHR_external_fence[OVRPlugin][INFO]   VK_KHR_external_fence_win32[OVRPlugin][INFO]   VK_KHR_external_semaphore[OVRPlugin][INFO]   VK_KHR_external_semaphore_win32[OVRPlugin][INFO]   VK_KHR_get_memory_requirements2[OVRPlugin][INFO]   VK_KHR_dedicated_allocation[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] ProfilerSystem: verbose mode 0[OVRPlugin][INFO] OVRPlugin 1.66.0 ... preinitialized[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012121[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.014530[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012123[OVRPlugin][INFO] IAD changed to 68.1mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM00.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM01.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM02.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_diffuse" 4 16 0 "gi_MainVR_LM03.bin" "MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final" 4 16 0 "gi_MainVR_LM04.bin" "MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/MainVR_LM0_final.hdr" 1024
+2023-3-23
+Rendering UV GBuffer for Test-MainVR_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Test-MainVR_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Test-MainVR_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Test-MainVR_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Test-MainVR_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Test-MainVR_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Test-MainVR_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Test-MainVR_LM0.lz4" 2 0 0 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA3_ao" 8 16 3
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LM0_ao" 8 16 0
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA1_diffuse" 4 16 1 "gi_Test-MainVR_LMA10.bin" "Test-MainVR_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA2_diffuse" 4 16 2 "gi_Test-MainVR_LMA20.bin" "Test-MainVR_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA3_diffuse" 4 16 3 "gi_Test-MainVR_LMA30.bin" "Test-MainVR_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LM0_diffuse" 4 16 0 "gi_Test-MainVR_LM00.bin" "Test-MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA1_diffuse" 4 16 1 "gi_Test-MainVR_LMA11.bin" "Test-MainVR_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA2_diffuse" 4 16 2 "gi_Test-MainVR_LMA21.bin" "Test-MainVR_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA3_diffuse" 4 16 3 "gi_Test-MainVR_LMA31.bin" "Test-MainVR_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LM0_diffuse" 4 16 0 "gi_Test-MainVR_LM01.bin" "Test-MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA1_diffuse" 4 16 1 "gi_Test-MainVR_LMA12.bin" "Test-MainVR_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA2_diffuse" 4 16 2 "gi_Test-MainVR_LMA22.bin" "Test-MainVR_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA3_diffuse" 4 16 3 "gi_Test-MainVR_LMA32.bin" "Test-MainVR_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LM0_diffuse" 4 16 0 "gi_Test-MainVR_LM02.bin" "Test-MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA1_diffuse" 4 16 1 "gi_Test-MainVR_LMA13.bin" "Test-MainVR_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA2_diffuse" 4 16 2 "gi_Test-MainVR_LMA23.bin" "Test-MainVR_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA3_diffuse" 4 16 3 "gi_Test-MainVR_LMA33.bin" "Test-MainVR_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LM0_diffuse" 4 16 0 "gi_Test-MainVR_LM03.bin" "Test-MainVR_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA1_final" 4 16 1 "gi_Test-MainVR_LMA14.bin" "Test-MainVR_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA2_final" 4 16 2 "gi_Test-MainVR_LMA24.bin" "Test-MainVR_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA3_final" 4 16 3 "gi_Test-MainVR_LMA34.bin" "Test-MainVR_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LM0_final" 4 16 0 "gi_Test-MainVR_LM04.bin" "Test-MainVR_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Test-MainVR_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Test-MainVR_LMA2_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "3" "Test-MainVR_LMA3_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Test-MainVR_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Test-MainVR_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Test-MainVR_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/Test-MainVR_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Test-MainVR_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/Test-MainVR_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Test-MainVR_LMA3_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/Test-MainVR_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Test-MainVR_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/MRI-Safety-SimVR/Assets/BakeryLightmaps/Test-MainVR_LM0_final.hdr" 1024
+[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.[OVRPlugin][INFO] OVRInterface plugin library location: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64[OVRPlugin][INFO] OVRInterface plugin libraries:
+  Library: C:\Program Files\Oculus\Support\oculus-runtime\client-plugins\x64\XR_EXT_hand_tracking.dll
+    Class Id: 0x62582d091582647c, class Name: XrExtHandTrackingExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0xed07f75800dea55c, class Name: XrFbHandTrackingAimExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class Id: 0x231a449959b76a41, class Name: XrFbHandTrackingCapsulesExtensionAddition
+      Interface Id: 0x4adefbb87b1845cf
+    Class[OVRPlugin][INFO] OVRInterface classes and interfaces:
+    Class Id: 0x192ed17193ef5e74, class Name: OpenXRExtensionRuntime
+      Interface Id: 0x223362abe367d30a
+    Class Id: 0x71dee913e4ca6a35, class Name: OpenXRRuntimeHandle
+      Interface Id: 0xba2299b1d57a30c7
+    Class Id: 0xb00b00067332ab1, class Name: OVRExtensionAddition
+      Interface Id: 0xb00b00053345520
+    Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
+      Interface Id: 0xae0b8a9331378a85
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.

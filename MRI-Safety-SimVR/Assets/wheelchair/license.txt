@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wheelchair
+* source:	https://sketchfab.com/3d-models/wheelchair-54911b7d81a44991804c87c6fc58c4df
+* author:	Maxence Rouillet (https://sketchfab.com/maxencerouillet)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wheelchair" (https://sketchfab.com/3d-models/wheelchair-54911b7d81a44991804c87c6fc58c4df) by Maxence Rouillet (https://sketchfab.com/maxencerouillet) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

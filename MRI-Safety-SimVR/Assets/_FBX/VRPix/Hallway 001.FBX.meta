@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: e538a7ccc202a574e8fa43ae926e6731
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blinds
+    second: {fileID: 2100000, guid: 019cdf3738ca5644cbda3fdd1a068550, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloorTiles
+    second: {fileID: 2100000, guid: c6e2fe1959eecd740bc2d519da0b9f7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: f51233348a74b5d4ca254e6aa85ba1e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: 9dd294695d2a7bb45a5850538756f267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: e1d2bb2a9aa4fe948989125b3e050068, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: accd86bae4f1ad144a3d81d3fb19938b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint White
+    second: {fileID: 2100000, guid: 4e6d94a56f516fe459bdb7ce21c3484c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall Art 1
+    second: {fileID: 2100000, guid: ed2529beed2895c4fb33ca974cdc0e0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall Art 2
+    second: {fileID: 2100000, guid: 2bc1ec4d1be960b4d976e93117a35701, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Orange
+    second: {fileID: 2100000, guid: b63739182098e96418319bbac58f0445, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 1
+    second: {fileID: 2800000, guid: 8cf0b85748115c84fb470afedc20ea2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 6791229-free-calm-wallpaper
+    second: {fileID: 2800000, guid: 0de869ae752c50d4c91a09df597c4383, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FloorTiles 2
+    second: {fileID: 2800000, guid: 1bbd493744933624cb2c13c8fcf98f01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WindowBlinds
+    second: {fileID: 2800000, guid: 08254b9361c31c547a6f33035c4086d8, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Corner Protection 022","Corner Protection 021","AlarmLight002","AlarmLight003","AlarmLight004","AlarmLight005","AlarmLight006","AlarmLight007","AlarmLight008","AlarmLight010","AlarmLight011","AlarmLight012","AlarmLight013","Corner
+      Protection 001","Corner Protection 002","Corner Protection 003","Corner Protection
+      004","Corner Protection 005","Corner Protection 006","Corner Protection 007","Corner
+      Protection 008","Corner Protection 009","Corner Protection 010","Corner Protection
+      011","Corner Protection 012","Corner Protection 013","Corner Protection 014","Corner
+      Protection 015","Corner Protection 016","Corner Protection 017","Corner Protection
+      018","Corner Protection 019","Corner Protection 020","Corner Protection 023","Corner
+      Protection 024","DoorFrame002","DoorFrame004","DoorFrame006","DoorHandle025","Door80cm002","DoorFrame010","DoorHandle007","Door80cm003","DoorFrame011","DoorHandle003","Door80cm004","DoorFrame012","DoorHandle004","Door80cm005","DoorFrame013","DoorHandle005","Door80cm006","DoorFrame014","Door80cm007","DoorFrame015","DoorHandle010","Door80cm008","DoorFrame016","DoorHandle009","Door80cm009","DoorFrame017","DoorFrame018","DoorFrame019","DoorHandle002","Door80cm012","DoorFrame020","DoorHandle006","Door120cm004","DoorFrame021","Floor
+      Pattern 001","SofaChair001","Spotlight025","ChairLegs004","Chair004","ChairLegs003","Chair003","ChairLegs002","Chair002","Table
+      A 002","Table A 001","Spotlight024","Spotlight023","Spotlight022","Spotlight021","Spotlight020","Spotlight019","Spotlight018","Spotlight017","Spotlight016","Spotlight015","Spotlight014","Spotlight013","Spotlight012","Spotlight011","Spotlight010","Spotlight009","Spotlight005","Spotlight004","Spotlight003","Spotlight002","Spotlight001","LightBar002","LightBar001","Wheel012","Wheel011","Wheel010","Wheel009","6
+      SmallShelf001","GlassPaneTall008","GlassPaneTall007","GlassPaneTall006","GlassPaneTall005","GlassPanelShort004","GlassPanelShort003","GlassPanelShort002","GlassPanelShort001","DoorHandle001","Door100cm010","Blinds","MultiFrame002","Wall
+      Pattern 001","Wall Pattern 002"],"padding":[52,52,113,113,113,113,113,113,113,113,113,113,113,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,52,16,16,16,256,14,17,256,14,17,256,14,17,256,14,17,256,14,17,14,17,256,14,17,256,14,17,17,17,256,14,17,256,12,16,11,17,209,52,35,52,35,52,35,15,17,209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,209,7,6,170,170,170,170,18,18,18,18,18,25,25,25,25,256,13,8,7,14,9],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
