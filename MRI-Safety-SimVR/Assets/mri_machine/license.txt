@@ -1,0 +1,11 @@
+Model Information:
+* title:	MRI Machine
+* source:	https://sketchfab.com/3d-models/mri-machine-7878f152c2434026a7ebf84ce8bc791f
+* author:	Phillip Stephens (https://sketchfab.com/pstephen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MRI Machine" (https://sketchfab.com/3d-models/mri-machine-7878f152c2434026a7ebf84ce8bc791f) by Phillip Stephens (https://sketchfab.com/pstephen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
