@@ -949,4 +949,1276 @@ Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Test-MainVR_LM0
       Interface Id: 0xb00b00053345520
     Class Id: 0x2a70ed34760b552e, class Name: ServiceTrexManagerImplementation
       Interface Id: 0xae0b8a9331378a85
-    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.
+    Class Id: 0xaf0a819a96974952, class[OVRPlugin][INFO] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll[OVRPlugin][INFO] Connected to the server running version (prod = 1).1.82.0(build = 0) feature version = 0. Client runs version (prod = 1).1.82.0(build = 0) feature version = 0[OVRPlugin][INFO] ovr_Initialize success[OVRPlugin][INFO] ovr_Create_Impl called.[OVRPlugin][INFO] HMDState::CreateHMDState VsyncToFirstScanline = 0.012119[OVRPlugin][INFO] IAD changed to 68.0mm[OVRPlugin][INFO] OVRPlugin 1.66.0 ... initialized[OVRPlugin][INFO] CliD3D11CompositorClient initialized[OVRPlugin][INFO] CliD3D11CompositorClient released[OVRPlugin][INFO] ovr_Destroy_Impl called.[OVRPlugin][INFO] ovr_Shutdown_Impl called.2023-4-11
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA3.lz4" 2 0 3 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA3_ao" 8 16 3
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_3_0_1" 4 0 3 batchpointlight_3_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA3_diffuse" 4 16 3 "gi_Final_LMA30.bin" "Final_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA3_diffuse" 4 16 3 "gi_Final_LMA31.bin" "Final_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA3_diffuse" 4 16 3 "gi_Final_LMA32.bin" "Final_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA3_diffuse" 4 16 3 "gi_Final_LMA33.bin" "Final_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA3_final" 4 16 3 "gi_Final_LMA34.bin" "Final_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "3" "Final_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA3_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_13" 4 0 2 batchpointlight_2_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_13" 4 0 2 batchpointlight_2_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_13" 4 0 2 batchpointlight_2_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_13" 4 0 2 batchpointlight_2_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_8_13" 4 0 1 batchpointlight_1_8_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_8_13" 4 0 0 batchpointlight_0_8_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_7" 4 0 2 batchpointlight_2_0_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_8_13" 4 0 2 batchpointlight_2_8_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_4_7" 4 0 1 batchpointlight_1_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_8_11" 4 0 1 batchpointlight_1_8_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_12_15" 4 0 1 batchpointlight_1_12_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_20_20" 4 0 1 batchpointlight_1_20_20.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_8_11" 4 0 0 batchpointlight_0_8_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_12_15" 4 0 0 batchpointlight_0_12_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_20_20" 4 0 0 batchpointlight_0_20_20.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_3" 4 0 2 batchpointlight_2_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_4_7" 4 0 2 batchpointlight_2_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_8_11" 4 0 2 batchpointlight_2_8_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_12_15" 4 0 2 batchpointlight_2_12_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_16_19" 4 0 2 batchpointlight_2_16_19.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_20_20" 4 0 2 batchpointlight_2_20_20.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_4_7" 4 0 1 batchpointlight_1_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_8_11" 4 0 1 batchpointlight_1_8_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_12_15" 4 0 1 batchpointlight_1_12_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_20_20" 4 0 1 batchpointlight_1_20_20.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_8_11" 4 0 0 batchpointlight_0_8_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_12_15" 4 0 0 batchpointlight_0_12_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_20_20" 4 0 0 batchpointlight_0_20_20.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_3" 4 0 2 batchpointlight_2_0_3.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_4_7" 4 0 2 batchpointlight_2_4_7.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_8_11" 4 0 2 batchpointlight_2_8_11.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_12_15" 4 0 2 batchpointlight_2_12_15.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_16_19" 4 0 2 batchpointlight_2_16_19.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_20_20" 4 0 2 batchpointlight_2_20_20.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 20 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 20 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 20 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_13" 4 0 2 batchpointlight_2_0_13.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX arealight "C:\Users\rahul\AppData\Local\Temp\frender" "light_1_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_13" 4 0 1 batchpointlight_1_0_13.bin
+Running ftraceRTX sun "C:\Users\rahul\AppData\Local\Temp\frender" "light_2_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\rahul\AppData\Local\Temp\frender" "light_1_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_13" 4 0 0 batchpointlight_0_0_13.bin
+Running ftraceRTX sun "C:\Users\rahul\AppData\Local\Temp\frender" "light_2_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\rahul\AppData\Local\Temp\frender" "light_1_2" 4 0 2 lights0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_13" 4 0 2 batchpointlight_2_0_13.bin
+Running ftraceRTX sun "C:\Users\rahul\AppData\Local\Temp\frender" "light_2_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Final_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Final_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Final_LMA2.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_ao" 8 16 2
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_1_0_1" 4 0 1 batchpointlight_1_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_0_0_1" 4 0 0 batchpointlight_0_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\rahul\AppData\Local\Temp\frender" "PointBatch_2_0_1" 4 0 2 batchpointlight_2_0_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA10.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM00.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA20.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA11.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM01.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA21.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA12.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM02.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA22.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_diffuse" 4 16 1 "gi_Final_LMA13.bin" "Final_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_diffuse" 4 16 0 "gi_Final_LM03.bin" "Final_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_diffuse" 4 16 2 "gi_Final_LMA23.bin" "Final_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final" 4 16 1 "gi_Final_LMA14.bin" "Final_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final" 4 16 0 "gi_Final_LM04.bin" "Final_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final" 4 16 2 "gi_Final_LMA24.bin" "Final_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Final_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Final_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Final_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Final_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Final_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Final_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Laboratory_Room_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA3.lz4" 2 0 3 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_ao" 8 16 3
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_diffuse" 4 16 0 "gi_Laboratory_Room_LM00.bin" "Laboratory_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_diffuse" 4 16 2 "gi_Laboratory_Room_LMA20.bin" "Laboratory_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_diffuse" 4 16 1 "gi_Laboratory_Room_LMA10.bin" "Laboratory_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_diffuse" 4 16 3 "gi_Laboratory_Room_LMA30.bin" "Laboratory_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_diffuse" 4 16 0 "gi_Laboratory_Room_LM01.bin" "Laboratory_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_diffuse" 4 16 2 "gi_Laboratory_Room_LMA21.bin" "Laboratory_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_diffuse" 4 16 1 "gi_Laboratory_Room_LMA11.bin" "Laboratory_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_diffuse" 4 16 3 "gi_Laboratory_Room_LMA31.bin" "Laboratory_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_diffuse" 4 16 0 "gi_Laboratory_Room_LM02.bin" "Laboratory_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_diffuse" 4 16 2 "gi_Laboratory_Room_LMA22.bin" "Laboratory_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_diffuse" 4 16 1 "gi_Laboratory_Room_LMA12.bin" "Laboratory_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_diffuse" 4 16 3 "gi_Laboratory_Room_LMA32.bin" "Laboratory_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_diffuse" 4 16 0 "gi_Laboratory_Room_LM03.bin" "Laboratory_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_diffuse" 4 16 2 "gi_Laboratory_Room_LMA23.bin" "Laboratory_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_diffuse" 4 16 1 "gi_Laboratory_Room_LMA13.bin" "Laboratory_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_diffuse" 4 16 3 "gi_Laboratory_Room_LMA33.bin" "Laboratory_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_final" 4 16 0 "gi_Laboratory_Room_LM04.bin" "Laboratory_Room_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_final" 4 16 2 "gi_Laboratory_Room_LMA24.bin" "Laboratory_Room_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_final" 4 16 1 "gi_Laboratory_Room_LMA14.bin" "Laboratory_Room_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_final" 4 16 3 "gi_Laboratory_Room_LMA34.bin" "Laboratory_Room_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Laboratory_Room_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Laboratory_Room_LMA2_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Laboratory_Room_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA3_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA3_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "3" "Laboratory_Room_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Laboratory_Room_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Laboratory_Room_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Laboratory_Room_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA3_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Laboratory_Room_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Laboratory_Room_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA3.lz4" 2 0 3 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_ao" 8 16 2
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_ao" 8 16 3
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_diffuse" 4 16 0 "gi_Laboratory_Room_LM00.bin" "Laboratory_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_diffuse" 4 16 2 "gi_Laboratory_Room_LMA20.bin" "Laboratory_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_diffuse" 4 16 1 "gi_Laboratory_Room_LMA10.bin" "Laboratory_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_diffuse" 4 16 3 "gi_Laboratory_Room_LMA30.bin" "Laboratory_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_diffuse" 4 16 0 "gi_Laboratory_Room_LM01.bin" "Laboratory_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_diffuse" 4 16 2 "gi_Laboratory_Room_LMA21.bin" "Laboratory_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_diffuse" 4 16 1 "gi_Laboratory_Room_LMA11.bin" "Laboratory_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_diffuse" 4 16 3 "gi_Laboratory_Room_LMA31.bin" "Laboratory_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_diffuse" 4 16 0 "gi_Laboratory_Room_LM02.bin" "Laboratory_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_diffuse" 4 16 2 "gi_Laboratory_Room_LMA22.bin" "Laboratory_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_diffuse" 4 16 1 "gi_Laboratory_Room_LMA12.bin" "Laboratory_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_diffuse" 4 16 3 "gi_Laboratory_Room_LMA32.bin" "Laboratory_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_diffuse" 4 16 0 "gi_Laboratory_Room_LM03.bin" "Laboratory_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_diffuse" 4 16 2 "gi_Laboratory_Room_LMA23.bin" "Laboratory_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_diffuse" 4 16 1 "gi_Laboratory_Room_LMA13.bin" "Laboratory_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_diffuse" 4 16 3 "gi_Laboratory_Room_LMA33.bin" "Laboratory_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_final" 4 16 0 "gi_Laboratory_Room_LM04.bin" "Laboratory_Room_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_final" 4 16 2 "gi_Laboratory_Room_LMA24.bin" "Laboratory_Room_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_final" 4 16 1 "gi_Laboratory_Room_LMA14.bin" "Laboratory_Room_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_final" 4 16 3 "gi_Laboratory_Room_LMA34.bin" "Laboratory_Room_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LM0_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "0" "Laboratory_Room_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA2_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA2_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "2" "Laboratory_Room_LMA2_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA1_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA1_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "1" "Laboratory_Room_LMA1_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA3_final_HDR.lz4" 4 0 3 addao_3.bin
+Running denoiserOIDN c "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA3_final_HDR.lz4" "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA3_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\rahul\AppData\Local\Temp\frender" "3" "Laboratory_Room_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LM0_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Laboratory_Room_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA2_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Laboratory_Room_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA1_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Laboratory_Room_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\rahul\AppData\Local\Temp\frender/Laboratory_Room_LMA3_final_HDR.lz4" "D:/Projects/UnityWorks/Quest/MRI-Safety-SimVR/Unity 2019.4.39f1/GitHub/MRI-Safety-Simulation-VR/MRI-Safety-SimVR/Assets/BakeryLightmaps/Laboratory_Room_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Laboratory_Room_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA2 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA3 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA4 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA5 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA6 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA7 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA8 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA9 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA10 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA11 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Laboratory_Room_LMA12 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA12.lz4" 2 0 12 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA11.lz4" 2 0 11 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA10.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA9.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\rahul\AppData\Local\Temp\frender" "uvpos_Laboratory_Room_LMA6.lz4" 2 0 6 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA4_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA12_ao" 8 16 12
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA11_ao" 8 16 11
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LM0_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\rahul\AppData\Local\Temp\frender" "Laboratory_Room_LMA7_ao" 8 16 7

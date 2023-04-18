@@ -15,7 +15,10 @@ MonoBehaviour:
   modifiedAssetPathList:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
   - Assets/sci-fi-mri/source/mriTEXTURE.fbx
-  modifiedAssetPaddingHash: d6a958ff9760cdb8
+  - Assets/_FBX/VRPix/Office glass panels.FBX
+  - Assets/_FBX/VRPix/Multiframe Window.FBX
+  - Assets/Lab/Models/Lab_Pillar_2.FBX
+  modifiedAssetPaddingHash: d6a958ff9760cdb87ee1a383353fd3d980c5d890
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -417,6 +420,21 @@ MonoBehaviour:
     - panel:003_Cylinder:037
     padding: 100000000e00000010000000110000001800000016000000330000001f0000001c000000000100001a000000370000000e0000001a000000180000001a000000
     unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - GlassPaneTall004
+    - GlassPaneTall003
+    - GlassPaneTall001
+    - GlassPaneTall002
+    padding: 12000000120000001200000012000000
+    unwrapper: 00000000000000000000000000000000
+  - meshName:
+    - MultiFrame001
+    padding: 06000000
+    unwrapper: 00000000
+  - meshName:
+    - Lab_Pillar_2
+    padding: 0e000000
+    unwrapper: 00000000
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
@@ -442,7 +460,59 @@ MonoBehaviour:
   - Assets/Oculus Hands/Animations/l_hand_default_anim.fbx
   - Assets/Oculus Hands/Models/l_hand_skeletal_lowres.fbx
   - Assets/Oculus Hands/Animations/l_hand_fist_anim.fbx
-  uvOverlapAssetList: 00000000ffffffff01010000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000001010000000000000000000000000000000000000000000000000000000000000000000000000000
+  - Assets/_FBX/VRPix/Multiframe Window.FBX
+  - Assets/_FBX/VRPix/Office glass panels.FBX
+  - Assets/_FBX/VRPix/Office Door  signage.FBX
+  - Assets/_FBX/VRPix/Medicine Room Door02.FBX
+  - Assets/Morgue Room PBR/Models/wall/wall_doubledoor_piece01.fbx
+  - Assets/Morgue Room PBR/Models/props/instrument_tray.fbx
+  - Assets/Morgue Room PBR/Models/wall/doubledoor_frame01.fbx
+  - Assets/Morgue Room PBR/Models/wall/wall_corner02.fbx
+  - Assets/Morgue Room PBR/Models/props/pencil.fbx
+  - Assets/Morgue Room PBR/Models/props/organ_scale.fbx
+  - Assets/Morgue Room PBR/Models/wall/door_01.fbx
+  - Assets/Morgue Room PBR/Models/floor/floor_ceiling_4x4.fbx
+  - Assets/Morgue Room PBR/Models/props/metal_sink.fbx
+  - Assets/Morgue Room PBR/Models/props/corpse_drawer.fbx
+  - Assets/Morgue Room PBR/Models/props/glass_jar.fbx
+  - Assets/Morgue Room PBR/Models/props/photo_frame.fbx
+  - Assets/Morgue Room PBR/Models/wall/wall_piece03.fbx
+  - Assets/Morgue Room PBR/Models/props/ceiling_light.fbx
+  - Assets/Morgue Room PBR/Models/props/glove_dispenser.fbx
+  - Assets/Morgue Room PBR/Models/props/shelf.fbx
+  - Assets/Morgue Room PBR/Models/props/writing_board.fbx
+  - Assets/Morgue Room PBR/Models/props/desk_chair.fbx
+  - Assets/Morgue Room PBR/Models/props/brain.fbx
+  - Assets/Morgue Room PBR/Models/wall/wall_doubledoor_single.fbx
+  - Assets/Morgue Room PBR/Models/props/table.fbx
+  - Assets/Morgue Room PBR/Models/props/steel_worktop.fbx
+  - Assets/Morgue Room PBR/Models/props/pencil_holder.fbx
+  - Assets/Morgue Room PBR/Models/floor/floor_ceiling_8x16.fbx
+  - Assets/Morgue Room PBR/Models/props/light_switch.fbx
+  - Assets/Morgue Room PBR/Models/floor/floor_ceiling_8x8.fbx
+  - Assets/Morgue Room PBR/Models/wall/wall_piece01.fbx
+  - Assets/Morgue Room PBR/Models/props/bonesaw.fbx
+  - Assets/Morgue Room PBR/Models/props/autopsy_table.fbx
+  - Assets/Morgue Room PBR/Models/props/notebook.fbx
+  - Assets/Morgue Room PBR/Models/props/scissors.fbx
+  - Assets/Morgue Room PBR/Models/props/desk_lamp.fbx
+  - Assets/Morgue Room PBR/Models/props/ceramic_sink.fbx
+  - Assets/Morgue Room PBR/Models/props/cabinet.fbx
+  - Assets/Morgue Room PBR/Models/props/trash_can.fbx
+  - Assets/Morgue Room PBR/Models/props/scalp.fbx
+  - Assets/Morgue Room PBR/Models/props/instrument_trolley.fbx
+  - Assets/Morgue Room PBR/Models/wall/wall_piece_drawer_01.fbx
+  - Assets/Morgue Room PBR/Models/floor/floor_ceiling_4x16.fbx
+  - Assets/Morgue Room PBR/Models/wall/wall_piece02.fbx
+  - Assets/Morgue Room PBR/Models/wall/wall_corner01.fbx
+  - Assets/Lab/Models/Microscope.FBX
+  - Assets/Lab/Models/Laboratory_Props.FBX
+  - Assets/Patient Lying Animation/Lying Down.fbx
+  - Assets/Patient Lying Animation/Laying Idle (1).fbx
+  - Assets/Patient Lying Animation/Laying Idle.fbx
+  - Assets/Patient Lying Animation/Laying Idle Anim.fbx
+  - Assets/Patient Lying Animation/Lying Down Anim.fbx
+  uvOverlapAssetList: 00000000ffffffff0101000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000101000001010000010100000000000001010000000000000000000000000000010100000000000001010000010100000000000000000000000000000000000000000000010100000000000001010000000000000000000001010000010100000000000001010000010100000101000000000000000000000000000001010000000000000000000001010000010100000000000000000000010100000000000001010000000000000000000000000000010100000000000000000000000000000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 2080
@@ -532,7 +602,7 @@ MonoBehaviour:
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
   tagOverrides: []
-  modifiedMeshPaddingArray: 100000000e00000010000000110000001800000016000000330000001f0000001c000000000100001a000000370000000e0000001a000000180000001a000000
-  modifiedMeshUnwrapperArray: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  modifiedMeshPaddingArray: 0e000000
+  modifiedMeshUnwrapperArray: 00000000
   texSettingsKey: []
   texSettingsVal: []

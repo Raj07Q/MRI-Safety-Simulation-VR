@@ -15,4 +15,7 @@ MonoBehaviour:
   modifiedAssetPathList:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
   - Assets/sci-fi-mri/source/mriTEXTURE.fbx
-  modifiedAssetPaddingHash: d6a958ff9760cdb8
+  - Assets/_FBX/VRPix/Office glass panels.FBX
+  - Assets/_FBX/VRPix/Multiframe Window.FBX
+  - Assets/Lab/Models/Lab_Pillar_2.FBX
+  modifiedAssetPaddingHash: d6a958ff9760cdb87ee1a383353fd3d980c5d890
