@@ -48,7 +48,7 @@ public class AnimateHandOnInput : MonoBehaviour
     public void Button_APressed(InputAction.CallbackContext context)
     {
         Debug.Log("A Pressed!!!!!!!!!!!!!!");
-        SceneManager.LoadScene("Test-MainVR");
+        SceneManager.LoadScene("Final");
         //if (!IsPressed)
         //{
         //    virtualKeyboard.SetActive(true);
