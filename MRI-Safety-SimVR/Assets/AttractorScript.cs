@@ -20,6 +20,9 @@ public class AttractorScript : MonoBehaviour
     public GameObject standCollider;
 
     private bool IsHited;
+    public Transform[] _leftPos;
+    //private int count;
+
     void Start()
     {
         IsHited = false;
@@ -31,7 +34,7 @@ public class AttractorScript : MonoBehaviour
         float dist = Vector3.Distance(headPosition.position, transform.position);
         
 
-        if(dist <= 3f && !IsHited)
+        if(dist <= 2.5f && !IsHited)
         {
             transform.position = Vector3.MoveTowards(transform.position, headPosition.position, speed * Time.deltaTime);
             //standCollider.GetComponent<BoxCollider>().enabled = false;
@@ -41,15 +44,15 @@ public class AttractorScript : MonoBehaviour
             rightInteractor.interactionLayers = 0;
         }
         
-        if(dist <= 0.2f)
+        if(dist <= 0.3f)
         {
             patientAnim.SetTrigger("hit");
             print("Hit Player!!!!!");
-            transform.position = leftPos.position;
+            transform.position = _leftPos[Random.Range(0, 3)].position;
             
-            IsHited = true;
+            //IsHited = true;
             leftInteractor.interactionLayers = 1;
-            rightInteractor.interactionLayers = 0;
+            rightInteractor.interactionLayers = 1;
         }
 
     }

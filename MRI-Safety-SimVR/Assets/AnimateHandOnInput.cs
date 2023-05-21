@@ -11,16 +11,16 @@ public class AnimateHandOnInput : MonoBehaviour
     public InputActionProperty A_Action;
 
     public Animator handAnimator;
-    //public GameObject virtualKeyboard;
+    public GameObject virtualKeyboard;
 
-    //private bool IsPressed;
+    private bool IsPressed;
 
     
     void Awake()
     {
         A_Action.action.performed += Button_APressed;
 
-        //virtualKeyboard.SetActive(false);
+        virtualKeyboard.SetActive(false);
     }
 
     private void OnDestroy()
@@ -48,18 +48,18 @@ public class AnimateHandOnInput : MonoBehaviour
     public void Button_APressed(InputAction.CallbackContext context)
     {
         Debug.Log("A Pressed!!!!!!!!!!!!!!");
-        SceneManager.LoadScene("Final");
-        //if (!IsPressed)
-        //{
-        //    virtualKeyboard.SetActive(true);
+        //SceneManager.LoadScene("Final");
+        if (!IsPressed)
+        {
+            virtualKeyboard.SetActive(true);
 
-        //    IsPressed = true;
-        //}
-        //else
-        //{
-        //    virtualKeyboard.SetActive(false);
+            IsPressed = true;
+        }
+        else
+        {
+            virtualKeyboard.SetActive(false);
 
-        //    IsPressed = false;
-        //}
+            IsPressed = false;
+        }
     }
 }
